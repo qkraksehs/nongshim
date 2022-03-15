@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>농심</title>
+    <link rel="shortcut icon" href="./images/logo-icon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 767px)">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header id="main-header" class="container">
+        <h1><a href="index.html">
+                <img src="./images/logo.png" alt="농심">
+            </a></h1>
+        <nav id="gnb">
+            <ul>
+                <li><a href="#">농심소개</a></li>
+                <li><a href="#">지속가능경영</a></li>
+                <li><a href="#">홍보센터</a></li>
+                <li><a href="#">투자정보</a></li>
+                <li><a href="#">고객서비스</a></li>
+            </ul>
+        </nav>
+        <div class="right-menu">
+            <!-- pc menu btn -->
+            <button id="right-btn" class="pc-only">
+                <img src="./images/search.svg" alt="site map">
+            </button>
+            <button id="right-btn" class="pc-only">
+                <img src="./images/user.svg" alt="my-page">
+            </button>
+            <button id="site-map-btn" class="pc-only">
+                <img src="./images/site-map-btn.svg" alt="site map">
+            </button>
+            <!-- mobile menu btn -->
+            <button id="gnb-toggle-btn" class="mobile-only">
+                <img src="./images/site-map-btn.svg" alt="main menu">
+            </button>
+        </div>
+    </header>
+
+    <!-- 슬라이더 컨테이터 -->
+    <div id="main-visual" class="swiper">
+        <div class="swiper-wrapper">
+            <!-- 슬라이더 콘텐츠 -->
+            <div class="swiper-slide s1">
+                <div class="title">
+                    <h2>
+                        <span>인생을 맛있게, 농심 </span>
+                    </h2>
+                </div>
+            </div>
+            <div class="swiper-slide s2">
+                <div class="title">
+                    <h2>
+                        <span>행복한 가치를 더합니다</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="swiper-slide s3">
+                <div class="title">
+                    <h2>
+                        <span>Lovely Life Lovely Food</span>
+                        <br>인생을 맛있게, 농심
+                    </h2>
+                </div>
+            </div>
+            <!-- 하단 UI -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <main>
+        <section id="content1" class="container">
+            <img src="./images/content01.jpg" alt="콘텐츠1">
+            <div class="text-box">
+                <div class="text-box-inner">
+                    <h2>농심 소식</h2>
+                    <p>내일을 위한<br>
+                        새롭고 활기찬 농심 소식</p>
+                    <a href="#content1" class="detail-btn">농심소식</a>
+                </div>
+            </div>
+        </section>
+        <section id="content2" class="container">
+            <img src="./images/content02.jpg" alt="콘텐츠2">
+            <div class="text-box">
+                <div class="text-box-inner">
+                    <h2>BEST BRAND</h2>
+                    <p>모두의 일상에<br>
+                        즐거움을 선사 합니다</p>
+                    <a href="#content2" class="detail-btn">브랜드관</a>
+                </div>
+            </div>
+        </section>
+        <section id="content3" class="container">
+            <img src="./images/content03.jpg" alt="콘텐츠3">
+            <div class="text-box">
+                <div class="text-box-inner">
+                    <h2>지속가능경영</h2>
+                    <p>함께해서 더 아름다운 세상<br>
+                        농심이 만들어갑니다</p>
+                    <a href="#content3" class="detail-btn">지속가능경영</a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>한국을 대표하는 맛,<br>세계를 감동시킨 우리의 맛</h2>
+                <div class="text-box">
+                    <div class="text-box2">
+                        <h2>경영이념</h2>
+                        <p>글로벌 식품 기업을 위한 힘찬 비상,<br>농심은 고객과 함께 세계를 향해<br>나아갑니다.</p>
+                    </div>
+                    <div class="text-box2">
+                        <h2>연혁</h2>
+                        <p>대한민국 식품 문화의 새로운<br>역사를 쓴<br>농심의 발자취입니다.</p>
+                    </div>
+                    <div class="text-box2">
+                        <h2>농심 50년</h2>
+                        <p>50년간 이어온 농심의 한결같은 마음<br>으로<br>한국의 대표기업이 되었습니다.</p>
+                    </div>
+                    <a href="#about" class="detail-btn">농심소개</a>
+                </div>
+            </div><!-- container -->
+        </section>
+    </main>
+    <!-- footer -->
+    <footer id="main-footer">
+        <div class="container">
+            <div class="menu-box">
+                <ul class="footer-menu">
+                    <li>
+                        <a href="#main-footer">상담접수</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a href="#main-footer">FAQ</a>
+                        <span>|</span>
+                    </li>
+                    <li><a href="#main-footer">오시는길</a><span>|</span></li>
+                    <li><a href="#main-footer">이용약관<span>|</span></a></li>
+                    <li><a href="#main-footer"><strong>개인정보처리방침</strong></a></li>
+                </ul>
+                <ul class="footer-menu">
+                    <li><a href="#main-footer">특약점포탈</a><span>|</span></li>
+                    <li><a href="#main-footer">전자결제</a><span>|</span></li>
+                    <li><a href="#main-footer">증명서조회</a><span>|</span></li>
+                    <li><a href="#main-footer">이메일주소무단수집거부</a></li>
+                </ul>
+                <ul class="sns-group">
+                    <li><a href="#main-footer"><img src="./images/facebook.png" alt="facebook"></a></li>
+                    <li><a href="#main-footer"><img src="./images/instar.png" alt="instargram"></a></li>
+                    <li><a href="#main-footer"><img src="./images/youtube.png" alt="youtube"></a></li>
+                    <li><a href="#main-footer"><img src="./images/blog.png" alt="blog"></a></li>
+                </ul>
+            </div><!-- menu-box -->
+            <div class="footer-info">
+                <div class="footer-info-text">
+                    <p>(주)농심<span>|</span>
+                        서울특별시 동작구 여의대방로 112 (신대방동)<span>|</span>
+                        <strong>사업자등록번호</strong> 118-81-03914
+                        <span>|</span>
+                        <strong>대표이사</strong> 박준
+                    </p>
+                    <p>
+                        <strong>대표전화</strong> 02.820.7114
+                        <span>|</span>
+                        <strong>고객센터</strong> 080.023.5181
+                    </p>
+                    <p class="copy">
+                        © NONGSHIM CO.,LTD. ALL RIGHTS RESERVED.
+                    </p>
+                </div>
+                <a href="#" class="top-btn"><img src="./images/top-btn.svg" alt="위로가기"></a>
+            </div><!-- footer-info -->
+        </div><!-- container -->
+    </footer>
+    <!-- 사이트맵 레이어 팝업창 -->
+    <div class="sitemap-modal pc-only">
+        <ul>
+            <li><a href="#">농심소개</a>
+                <ul>
+                    <li><a href="#">경영이념</a></li>
+                    <li><a href="#">연혁</a></li>
+                    <li><a href="#">세계속의 농심</a></li>
+                    <li><a href="#">CJ 소개</a></li>
+                    <li><a href="#">농심그룹</a></li>
+                    <li><a href="#">오시는길</a></li>
+                </ul>
+            </li>
+            <li><a href="#">지속가능경영</a>
+                <ul>
+                    <li><a href="#">사회공헌</a></li>
+                    <li><a href="#">연구개발</a></li>
+                    <li><a href="#">환경·안전</a></li>
+                    <li><a href="#">동반성장</a></li>
+                    <li><a href="#">준법경영</a></li>
+                    <li><a href="#">소비자중심경영</a></li>
+                </ul>
+            </li>
+            <li><a href="#">홍보센터</a>
+                <ul>
+                    <li><a href="#">농시미 이벤트</a></li>
+                    <li><a href="#">농심 소식</a></li>
+                    <li><a href="#">농심TV</a></li>
+                    <li><a href="#">N.서포터즈</a></li>
+                    <li><a href="#">라면피디아</a></li>
+                </ul>
+            </li>
+            <li><a href="#">투자정보</a>
+                <ul>
+                    <li><a href="#">주식에 관한 사항</a></li>
+                    <li><a href="#">주가정보</a></li>
+                    <li><a href="#">IR 정보</a></li>
+                    <li><a href="#">공시정보</a></li>
+                </ul>
+            </li>
+            <li><a href="#">고객서비스</a>
+                <ul>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">공장견학</a></li>
+                </ul>
+            </li>
+        </ul>
+        <button id="sitemap-modal-close">
+            <img src="./images/carbon_close.svg" alt="사이트맵 닫기">
+        </button>
+    </div> <!-- site map modal -->
+    <script src="./js/swiper.js"></script>
+</body>
+
+
+</html>
