@@ -66,8 +66,8 @@ body {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.8);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     z-index: 100;
     display: flex;
     justify-content: center;
@@ -81,8 +81,8 @@ body {
 
 #sitemap-modal-close {
     position: absolute;
-    right: 200px;
-    top: 70px;
+    right: 250px;
+    top: 20px;
     background: transparent;
     border-style: none;
 }
@@ -133,9 +133,8 @@ body {
 .swiper {
     width: 1440px;
     height: 800px;
-    background: #ccc;
   }
-  
+
   .swiper .swiper-slide.s1{
     background-image: url(../images/main-visual01.jpg);
     background-size: cover;
@@ -149,9 +148,9 @@ body {
   }
 
   .swiper .swiper-slide.s3{
-    background-image: url(../images/main-visual03.jpg);
-    background-size: cover;
-    background-position: center;
+      background-image: url(../images/main-visual03.jpg);
+      background-size: cover;
+      background-position: center;
   }
   
   .swiper .swiper-slide {
@@ -300,6 +299,10 @@ main section.container:nth-child(2n) {
 footer {
     width: 100%;
     margin: 0 auto;
+}
+
+footer .container {
+    width: 1440px;
 }
 
 footer .menu-box {
